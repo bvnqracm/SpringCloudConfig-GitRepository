@@ -1,4 +1,4 @@
 spring:
   datasource:
-    username: dbuser1
+    username: dbuser2
     password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
