@@ -3,6 +3,12 @@ application:
     username: dbuser2
     password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
 spring:
+  datasource:
+    initialization-mode: always
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    schema: classpath:scripts/schema-mssql.sql
+    data: classpath:scripts/data-mssql.sql
+    name: BIKE_RENTAL
   jpa:
     database-platform: org.hibernate.dialect.SQLServer2012Dialect
     show-sql: true
