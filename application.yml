@@ -6,8 +6,8 @@ spring:
   datasource:
     initialization-mode: always
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    schema: classpath:scripts/schema-mssql.sql
-    data: classpath:scripts/data-mssql.sql
+    #schema: classpath:scripts/schema-mssql.sql
+    #data: classpath:scripts/data-mssql.sql
     name: BIKE_RENTAL
   jpa:
     database-platform: org.hibernate.dialect.SQLServer2012Dialect
