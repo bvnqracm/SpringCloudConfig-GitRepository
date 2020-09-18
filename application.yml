@@ -22,3 +22,11 @@ logging:
     io.lettuce.core.protocol.DefaultEndpoint: trace
     io.lettuce.core.protocol.CommandEncoder: trace
     org.springframework.cloud: trace
+    
+azure:
+  keyvault:
+    enabled: true
+    uri: 'https://keyvaultbackendjava.vault.azure.net/'
+    client-id: f43378af-9a81-47e2-969a-f58fa559b05d
+    tenant-id: d0a36512-10af-4562-833a-7d7f9d37c968
+    client-key: 92Aa0il1.UJ2a3f-__xXr3517eB6UxBp4Z
