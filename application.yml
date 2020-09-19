@@ -1,7 +1,3 @@
-application:
-  datasource:
-    username: dbuser2
-    password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
 spring:
   datasource:
     initialization-mode: always
